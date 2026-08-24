@@ -26,3 +26,22 @@ This program implements the Heap Sort algorithm in Python. It builds a Max Heap 
 # Conclusion:-
 
 The experiment demonstrates that Heap Sort is an efficient comparison-based sorting algorithm with a consistent time complexity of O(n log n) in the best, average, and worst cases. It provides reliable performance regardless of the input order and is suitable for sorting large datasets. Although it is not a stable sorting algorithm, Heap Sort is preferred when guaranteed O(n log n) performance and constant auxiliary space (O(1)) are required.
+
+
+# DAA.PRATICAL_4
+# summary:-
+The factorial program was implemented using both iterative and recursive methods. The iterative method uses a loop, while the recursive method calls itself until it reaches the base condition. The execution time, time complexity, and space complexity of both methods were compared.
+
+# Conclusion:-
+both methods take O(n) time.
+The recursive method uses O(n) space because it stores function calls.
+The iterative method uses O(1) space, so it uses less memory.
+Therefore, the iterative method is more memory-efficient, while the recursive method is simpler to understand.
+
+
+# DAA.PRATICAL_7
+# Summary:-
+The Making Change Problem was solved using Dynamic Programming. The program finds the minimum number of coins needed to make a given amount.
+
+# Conclusion:-
+Dynamic Programming helps solve the problem efficiently by storing previous results. The program has O(n × amount) time complexity and O(amount) space complexity.
